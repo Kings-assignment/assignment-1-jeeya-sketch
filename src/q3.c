@@ -3,6 +3,7 @@
 #include <stdio.h>
 
 int main() {
-    //Enter your code here
+    //Enter your code here//
+    printf("Hello,Welcome to C programming");
     return 0;
 }
