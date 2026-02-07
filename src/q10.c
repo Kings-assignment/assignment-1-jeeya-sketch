@@ -11,7 +11,5 @@ int main() {
     y=temp;
 
     printf("Value of x after swap is %d and y is %d", x, y);
-
-
     return 0;
 }
