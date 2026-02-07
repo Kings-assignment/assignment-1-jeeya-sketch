@@ -4,7 +4,7 @@ int main(){
     int num, result;
     printf("Enter a number: ");
     scanf("%d", &num);
-    result= ((num+1)*5)-10;
+    result= ((num+1)*3)-10;
     printf("%d\n ",result);
 return 0;
 }
