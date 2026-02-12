@@ -1,7 +1,10 @@
-include<stdio.h>
+#include<stdio.h>
 int main(){
-    int num;
-    printf("Enter a number: ");
-    scanf("%d",&num);
-    printf("Is positive and even? %d\n", (num > 0) && (num % 2 == 0));
-    return 0;
+    int days;
+    printf("Enter number of days: ");
+    scanf("%d", &days);
+    int weeks = days/7;
+    int remaining_days = days%7;
+    printf("%d weeks and %d days\n", weeks, remaining_days);
+     return 0;
+}
